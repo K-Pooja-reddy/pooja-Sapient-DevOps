@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sapient Foods</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#order">Order Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to Sapient Foods</h1>
+        <p>Experience the finest culinary delights with a modern twist. At Sapient Foods, we bring together the freshest ingredients and innovative recipes to create a memorable dining experience.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Sapient Foods is dedicated to providing exceptional dining experiences with a focus on sustainability and quality.</p>
+    </section>
+
+    <section id="services">
+        <h2>Services</h2>
+        <p>We offer a variety of services including dine-in, takeaway, and catering for special events.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <section id="order">
+        <h2>Order Now</h2>
+        <p>Ready to indulge? Place your order today!</p>
+        <button onclick="validateOrder()">Order Now</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sapient Foods. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
